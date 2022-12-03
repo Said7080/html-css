@@ -1,0 +1,349 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Tyk{
+    border: 1px solid black;
+    margin: 0px auto;
+    
+}
+
+body{
+    background: url(fon2.jpg);
+}
+
+header{ 
+    
+    display: flex;
+    background: url(Les.jpg) no-repeat;
+    background-size: cover;
+    height: 252px;
+    position: relative;
+    justify-content: space-around;
+    border: 2px solid #080808d5;
+  
+   
+}
+
+
+.sortirovka{
+    margin-left: 240px;
+    display: flex;
+    padding: 0px;
+    margin-top: 10px;
+    
+}
+
+.sortirovka_po{
+    color: #201d1d;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.raznoe{
+  margin-left: 20px;
+  border: none;
+  background-color: #deb88700;
+  font-family: monospace;
+}
+
+
+option{
+    color:#5cb19e;
+    background:#85764dfd;
+    border: none;
+    font-family: monospace;
+  }
+
+.Tyk_left{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #0000ff00;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    border: 3px solid #ff000000;
+    margin-top: 30px;
+    height: 32px;
+   
+}
+
+ul{
+
+list-style: none;
+}
+
+.razdel{
+    text-decoration: none;
+    color: #7ec0bd;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.razdel:hover{
+    text-decoration: none;
+    color: #682519;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.Tyk__number{
+    margin-top: 30px;
+    text-shadow: #64110e -2px -1px 0, 
+    #307fa3 1px 1px 0;
+    color: #808ea0;
+    font: 24px Arial;
+    border: 3px solid #ff000000;
+}
+
+.Tyk__logo{
+    margin-right: 100px;
+    margin-top: 20px;
+    border: 3px solid rgba(255, 0, 0, 0);
+}
+
+.main_list{
+    display: flex;
+    flex-wrap: wrap;
+width: 1180px;
+justify-content: space-between;
+border: 1px solid #ff000000;
+margin: 40px auto;
+
+}
+.main_list_item{
+    border: 1px solid #80e70a00;
+    width: 380px;
+    height: 521px; 
+    background-color: #312a2a; 
+    margin-bottom: 25px;
+    border-radius: 0 0 15px 15px;
+}
+.item_highlights{
+
+    width: 380px;
+    display: flex;
+    background: url(katana.jpg) no-repeat;
+    background-size: cover;
+    height: 264px;
+    position: relative;
+    justify-content: space-around;
+    border: 2px solid #080808d5;
+}
+
+.item_highlights1{
+
+    width: 380px;
+    display: flex;
+    background: url(katana1.jpg) no-repeat;
+    background-size: cover;
+    height: 264px;
+    position: relative;
+    justify-content: space-around;
+    border: 2px solid #080808d5;
+}
+
+.item_highlights2{
+
+    width: 380px;
+    display: flex;
+    background: url(katana2.jpg) no-repeat;
+    background-size: cover;
+    height: 264px;
+    position: relative;
+    justify-content: space-around;
+    border: 2px solid #080808d5;
+}
+
+.item_highlights3{
+
+    width: 380px;
+    display: flex;
+    background: url(katana3.jpg) no-repeat;
+    background-size: cover;
+    height: 264px;
+    position: relative;
+    justify-content: space-around;
+    border: 2px solid #080808d5;
+}
+
+.item_highlights4{
+
+    width: 380px;
+    display: flex;
+    background: url(katana4.jpg) no-repeat;
+    background-size: cover;
+    height: 264px;
+    position: relative;
+    justify-content: space-around;
+    border: 2px solid #080808d5;
+}
+
+.item_highlights5{
+
+    width: 380px;
+    display: flex;
+    background: url(katana5.jpg) no-repeat;
+    background-size: cover;
+    height: 264px;
+    position: relative;
+    justify-content: space-around;
+    border: 2px solid #080808d5;
+}
+
+.item_content{
+    width: 380px;
+    height: 192px;
+    padding: 30px; 
+    font-family:monospace;
+    background-color: #817f65;
+  }
+.item_btn{
+    width: 380px;
+    height: 65px; 
+    background-color: #041b22;
+    border-radius: 0 0 15px 15px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.pokypka{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: cursive;
+    color: #817f59;
+}
+
+.pokypka:hover{
+    color: brown;
+}
+
+.item_hightlights_act{
+    width: 78px;
+    height: 39px;
+    background-color: #0d272b;
+    border-radius: 10px;
+    position: absolute;
+    top: 34px;
+    left: 38px;
+    text-align: center;
+    padding-top: 9px;
+    color: #fff;
+
+}
+.item_hightlights_like{
+    position: absolute;
+    top: 20px;
+    right: 32px;
+}
+.item_content_opt{
+    display: flex;
+    justify-content: space-around;
+width: 320px;
+height: 30px;
+border-left: 4px solid #3f1512;
+margin: 24px auto;
+}
+
+
+.pokaz_eshe{
+    border: 2px solid black;
+    margin-left: 480px;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.eshe{
+    color: black;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.eshe:hover{
+    color: #c3e7e0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+
+.pol{
+    width: 100%;
+    height: 230px;
+    background-color: #222121;
+    margin-top: 45px;
+    border-radius: 0 0 15px 15px;
+}
+
+.text_pol{
+    color: #f0efea;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 260px;
+    margin-top: 60px;
+}
+
+.text1_pol{
+    color: #f0efea;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 270px;
+    margin-top: 16px;
+}
+
+.adresa{
+    display: flex;
+    margin-left: 550px;
+}
+
+
+input{
+   padding: 10px;
+   border-radius: 8px;
+   font-size: 12px;
+   color: #b87613;
+   border:2px ridge  #81815a;
+}
+
+.podpisatsa{
+    border: ridge 2px wheat;
+    width: 112px;
+    border-radius: 6px;
+   padding: 5px;
+   margin-left: 10px;
+   background-color: #658d55;
+  ;
+}
+
+.podpisa{
+    
+     text-decoration: none;
+     margin-left: 5px;
+     color: #cca97a
+}
+
+.podpisatsa:hover{
+    border: ridge 2px wheat;
+    width: 112px;
+    border-radius: 6px;
+   padding: 5px;
+   margin-left: 10px;
+   background-color: #7a3e36;
+   
+}
+
+.podpisa:hover{
+text-decoration: none;
+margin-left: 5px;
+color: #817e49;
+}
